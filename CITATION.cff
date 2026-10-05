@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Guata LCP Analysis: Least Cost Path Analysis for Archaeological Spatial Data via GRASS GIS"
+type: software
+authors:
+  - family-names: "Rodrigues"
+    given-names: "Gabriela"
+    affiliation: "Universidade Federal Rural de Pernambuco (UFRPE)"
+    orcid: "https://orcid.org/0009-0008-3176-7980"
+  - family-names: "Bonald"
+    given-names: "Lucas"
+    affiliation: "Fundação Casa de José Américo (FCJA-PB)"
+    orcid: "https://orcid.org/0000-0001-7116-4692"
+  - family-names: "Lima"
+    given-names: "Izabela"
+    affiliation: "Universidade Federal de Pernambuco (UFPE)"
+    orcid: "https://orcid.org/0009-0008-5732-4731"
+  - family-names: "Araújo"
+    given-names: "João"
+    affiliation: "Universidade Federal de Pernambuco (UFPE)"
+    orcid: "https://orcid.org/0009-0003-1403-6813"
+  - family-names: "Anderson"
+    given-names: "Oliveira"
+    affiliation: "Universidade Federal de Pernambuco (UFPE)"
+    orcid: "https://orcid.org/0000-0003-1659-2023"
+version: "1.0.0"
+date-released: "[2026-10-05]"
+url: "[GitHub repository URL]"
+repository-code: "[GitHub repository URL]"
+doi: "[Zenodo DOI, once reserved or published]"
+license: "GPL-3.0"
+keywords:
+  - archaeology
+  - least cost path
+  - GRASS GIS
+  - spatial analysis
+  - Catimbau
+  - GIS
+abstract: >
+  A Least Cost Path pipeline for archaeological spatial analysis using GRASS GIS.
+  Computes accumulated cost surfaces from a DEM using Tobler, Herzog or Langmuir
+  cost functions, generates least cost paths between origin and destination point
+  grids, and produces a path density raster.
